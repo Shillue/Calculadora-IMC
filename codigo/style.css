@@ -1,0 +1,60 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: blueviolet;
+}
+h1{
+    font-size: 35px;
+}
+.calculadora{
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+#iNome,#iAltura,#iPeso{
+    position: relative;
+    width: 205px;
+    height: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    margin: 2px;
+}
+#iNome{
+    left: 2px;
+}
+#iPeso{
+    left: 12px;
+}
+
+#iCalcular{
+    position: relative;
+    width: 95px;
+    height: 50px;
+    font-size:20px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+#iCalcular:hover{
+    background-color: rgb(80, 74, 74);
+    cursor: pointer;
+}
+
+#iResultado{
+    position: relative;
+    width: 290px;
+    height: 80px;
+    background-color: rgb(239, 185, 255);
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    padding: 2px;  
+}
