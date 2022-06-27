@@ -2,10 +2,11 @@
 function cal(){
     const n = document.getElementById("iNome").value;
     const alt = document.getElementById("iAltura").value;
-    const p = document.getElementById("iPeso").value;
+    const peso = document.getElementById("iPeso").value;
 
   //para que o usuário possa poder usar tanto o ponto quanto a vírgula.
   var a = parseFloat(alt.replace(",", "."));
+  var p = parseFloat(peso.replace(",","."));
 
     if(n == "" && a == "" && p == "" ){
         alert("É necessario preencher todos os campos!")
